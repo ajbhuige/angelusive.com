@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Angie's Portfolio - Dashboard</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="/index.html">Home</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
@@ -37,219 +37,112 @@
     </div>
     </nav>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <a class="btn" href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen">Onderwijs &
-                    Examenregelement</a>
-                <a class="btn" href="https://hz.nl/uploads/documents/Regelingen/OERS/2018-2019/9.-HBO-ICT-vt-Uitvoeringsregeling-HZ-2018–2019.pdf">Uitvoeringsregeling
-                    HBO-ICT</a>
-                <a class="btn" href="https://learn.hz.nl">HZ Learn</a>
-                <a class="btn" href="https://teams.microsoft.com/l/channel/19%3a2e2afa0286b04932be16cb8ad2d9d2c0%40thread.skype/Algemeen?groupId=95bddebc-a340-4d88-81fc-b80e0bfc70c3&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c">Teams
-                    HBO-ICT Eerstejaars </a>
-                <a class="btn" href="https://teams.microsoft.com/l/team/19%3a827654897ab746089c081f24aff1c984%40thread.skype/conversations?groupId=337e8cca-f67d-4132-9fa9-b0c761bbeb94&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c">Teams
-                    HBO-ICT Algemeen</a>
-                <a class="btn" href="https://apps.hz.nl/angular/studievoortgang/studiestatus">Studievoortgang</a>
-                <a class="btn" href="https://github.com/HZ-HBO-ICT">Github HBO-ICT</a>
-            </div>
-            <div class="col-sm">
-                <table id="studiemonitor">
-
-                    <tr>
-                        <th>Blok</th>
-                        <th>Cursus</th>
-                        <th>Toets</th>
-                        <th>Weging</th>
-                        <th>EC</th>
-                        <th>Resultaat</th>
-
-                    </tr>
-                    <tr class="table-success">
-                        <td class="sufficientGrade">1: Introduction to Computer Science</tdclass="sufficientGrade">
-                        <td>Opleidings- en Beroepsoriëntatie</td>
-                        <td>Toets</td>
-                        <td>100%</td>
-                        <td>2.5</td>
-                        <td class="sufficientGrade">7.5</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Computer Science Basics</td>
-                        <td>Theorietentamen</td>
-                        <td>100%</td>
-                        <td>7.5</td>
-                        <td class="sufficientGrade">7.9</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Programming Basics</td>
-                        <td>Casustoets</td>
-                        <td>100%</td>
-                        <td>5</td>
-                        <td class="sufficientGrade">10</td>
-                    </tr>
-                    <tr>
-                        <td>2: Game Development</td>
-                        <td>Object-oriented Programming</td>
-                        <td>Casustoets</td>
-                        <td>50%</td>
-                        <td>5</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Object-oriented Programming</td>
-                        <td>Groepsproject</td>
-                        <td>50%</td>
-                        <td>5</td>
-                        <td class="sufficientGrade">7.0</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Professional Skills 1</td>
-                        <td>Rapportage</td>
-                        <td>50%</td>
-                        <td>5</td>
-                        <td class="sufficientGrade">7.3</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Hogeschooltaal</td>
-                        <td>Toets</td>
-                        <td>50%</td>
-                        <td>0</td>
-                        <td class="sufficientGrade">Behaald</td>
-                    </tr>
-                    <tr>
-                        <td>3: Frameworks 1</td>
-                        <td>Professional Skills 2</td>
-                        <td>Agile functioneren</td>
-                        <td>50%</td>
-                        <td>2.5</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td>Engels opdrachten</td>
-                        <td>25%</td>
-                        <td> </td>
-                        <td> </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td>Engels werkstuk</td>
-                        <td>25%</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Professionele Werkplek</td>
-                        <td>Eindgesprek</td>
-                        <td>100%</td>
-                        <td>2.5</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Framework Development 1</td>
-                        <td>Casustoets</td>
-                        <td>100%</td>
-                        <td>5</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Framework Project 1</td>
-                        <td>Requirementsverslag</td>
-                        <td>50%</td>
-                        <td>5</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td>Projectresultaat</td>
-                        <td>50%</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Professional Skills 3</td>
-                        <td>Agile functioneren</td>
-                        <td>50%</td>
-                        <td>2.5</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td>Engels opdrachten</td>
-                        <td>25%</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td>Engels werkstuk</td>
-                        <td>25%</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Framework Development 2</td>
-                        <td>Opdrachten</td>
-                        <td>100%</td>
-                        <td>5</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Framework Project 2</td>
-                        <td>Code reviews</td>
-                        <td>50%</td>
-                        <td>5</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td>Projectresultaat</td>
-                        <td>50%</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>HZ Personality</td>
-                        <td>Portfolio</td>
-                        <td>100%</td>
-                        <td>2.5</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>IT Personality 1</td>
-                        <td>Portfolio</td>
-                        <td>100%</td>
-                        <td>2.5</td>
-                        <td></td>
-                    </tr>
-                </table>
-            </div>
-            <div class="col-sm">
-                <p style="margin-top: 200px;">NBSA Veilig</p>
-                <progress max="45" value="30"></progress>
-                <p>Propodeuse</p>
-                <progress max="60" value="30"></progress>
+    <section id="tabs" class="project-tab">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="heading">Year 1 (2019-2020)</h1>
+                    <nav>
+                        <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Introduction to Computer Science</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Game Development</a>
+                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Frameworks</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <table class="table" cellspacing="0">
+                                <thead>
+                                    <tr>
+                                        <th>Course</th>
+                                        <th>Grading</th>
+                                        <th>ECTS</th>
+                                        <th>Result (0-10)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="#">Training and Professional Orientation</a></td>
+                                        <td>Exam</td>
+                                        <td>2.5</td>
+                                        <td>7.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">Computer Science Basics</a></td>
+                                        <td>Theoretical exam</td>
+                                        <td>7.5</td>
+                                        <td>7.9</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">Programming Basics</a></td>
+                                        <td>Practical exam</td>
+                                        <td>5</td>
+                                        <td>10</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <table class="table" cellspacing="0">
+                                <thead>
+                                    <tr>
+                                        <th>Project Name</th>
+                                        <th>Employer</th>
+                                        <th>Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="#">Work 1</a></td>
+                                        <td>Doe</td>
+                                        <td>john@example.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">Work 2</a></td>
+                                        <td>Moe</td>
+                                        <td>mary@example.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">Work 3</a></td>
+                                        <td>Dooley</td>
+                                        <td>july@example.com</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <table class="table" cellspacing="0">
+                                <thead>
+                                    <tr>
+                                        <th>Contest Name</th>
+                                        <th>Date</th>
+                                        <th>Award Position</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="#">Work 1</a></td>
+                                        <td>Doe</td>
+                                        <td>john@example.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">Work 2</a></td>
+                                        <td>Moe</td>
+                                        <td>mary@example.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">Work 3</a></td>
+                                        <td>Dooley</td>
+                                        <td>july@example.com</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
